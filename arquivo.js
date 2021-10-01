@@ -88,7 +88,10 @@ function moverpersonagem(event) {
     }
     if(event.key == "ArrowLeft") {
         let novovolocal = document.querySelector(`#vazio${Number(personagemid) - 1}`)
-        if (novovolocal !== null) {
+        if(personagem.parentNode.className === "start") {
+
+       }
+        else if (novovolocal !== null) {
             novovolocal.appendChild(personagem)
             verificarvitoria(novovolocal)
 
