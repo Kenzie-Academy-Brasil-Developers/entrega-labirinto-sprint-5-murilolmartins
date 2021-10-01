@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.linha {
+    display: flex;
+}
+.parede, .start, .parede, .vazio {
+    width: 40px;
+    height: 40px;
+}
+.parede {
+    background-color: green;
+}
+.personagem {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.serieA, .serieB {
+    font-size: 76px;
+}
+.titulo {
+    text-align: center;
+}
+.vitoria {
+    font-size: 180px;
+    color: green;
+    text-align: center;
+}
